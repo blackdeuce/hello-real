@@ -1,7 +1,10 @@
-function greet() {
-    return "Hello, CI/CD World!";
-}
+const http = require('http');
 
-console.log(greet());
+const server = http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.end('<h1>Hello, CI/CD World!</h1>');
+});
 
-module.exports = greet;
+server.listen(3000, () => {
+    console.log("Server running at http://localhost:3000");
+});
