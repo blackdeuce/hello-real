@@ -1,5 +1,13 @@
-"scripts": {
-  "start": "node src/app.js",
-  "test": "node tests/test.js",
-  "build": "bash scripts/build.sh"
+{
+  "name": "hello-real",
+  "version": "1.0.0",
+  "description": "CI/CD demo project",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node tests/test.js",
+    "build": "bash scripts/build.sh"
+  },
+  "author": "blackdeuce",
+  "license": "ISC"
 }
