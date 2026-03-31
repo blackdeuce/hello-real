@@ -1,9 +1,5 @@
-{
-  "name": "hello-real",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node src/app.js",
-    "test": "node tests/test.js",
-    "build": "bash scripts/build.sh"
-  }
+"scripts": {
+  "start": "node src/app.js",
+  "test": "node tests/test.js",
+  "build": "bash scripts/build.sh"
 }
